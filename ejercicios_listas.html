@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicios de listas
+    </title>
+</head>
+<body>
+    
+    <h1>Ejercicio 1</h1>
+    <p>
+        Haz una lista no ordenada y ordenada anidadas de la forma que tú consideres necesaria con la información del siguiente texto:
+    </p>
+    <p>
+      "Un mécanico tiene en su taller tres coches los cuales quiere ordenar alfabéticamente por sus marcas:<br>
+      Coche 1: Toyota // Coche 2: Ford // Coche 3: Audi.<br>
+      De cada coche se conoce su matricula, modelo y color y al mecánico no le importa el orden de estos datos bajo cada coche.
+      ((Invéntate el color, modelo y matrícula))"
+    </p>
+    <p>
+        Las listas no ordenadas tendrán que ser con viñetas cuadradas y las listas ordenadas tendrán que estar en letras latinas minúsculas.
+        <br>Además, la lista ordenada tiene que estar en la posición interior.
+    </p>
+
+    <h2>Solución</h2>
+
+    <ol style="list-style: lower-latin inside;">
+        <li>Audi</li>
+        <ul style="list-style-type: square;">
+            <li>Matricula</li>
+            <ul>PBL-1781</ul>
+            <br>
+            <li>Color</li>
+            <ul>Rosita</ul>
+            <br>
+            <li>Modelo</li>
+            <ul>
+                Destroza pies
+            </ul>
+        </ul>
+        <br>
+        <li>Ford</li>
+        <ul style="list-style-type: square;">
+            <li>Matricula</li>
+            <ul>KBL-1982</ul>
+            <br>
+            <li>Color</li>
+            <ul>Rojo</ul>
+            <br>
+            <li>Modelo</li>
+            <ul>
+                Destroza cráneos
+            </ul>
+        </ul>
+        <br>
+        <li>Toyota</li>
+        <ul style="list-style-type: square;">
+            <li>Matricula</li>
+            <ul>JBL-1782</ul>
+            <br>
+            <li>Color</li>
+            <ul>Morado</ul>
+            <br>
+            <li>Modelo</li>
+            <ul>
+                Destroza espinas
+            </ul>
+        </ul>
+        <br>
+                
+    </ol>
+
+    <hr>
+
+    <h1>Ejercicio 2</h1>
+
+    <P>Añade los estilos necesarios para que los elementos de la lista ordenada tengan un borde 2 píxeles sólido de color rojo y que tenga el texto de un color morado, cualquier tonalidad.</P>
+    <p>Además, busca una imagen que usar como viñeta para los elementos de la lista desordenada.</p>
+        <ol style="list-style: lower-latin inside;">
+            <li style= "border: 2px solid red;
+            color: rebeccapurple;">Audi</li>
+            <ul style="list-style-image: url(pequena-estrella.png);">
+                <li>Matricula</li>
+                <ul>PBL-1781</ul>
+                <br>
+                <li>Color</li>
+                <ul>Rosita</ul>
+                <br>
+                <li>Modelo</li>
+                <ul>
+                    Destroza pies
+                </ul>
+            </ul>
+            <br>
+            <li style= "border: 2px solid red;
+            color: rebeccapurple;">Ford</li>
+            <ul style="list-style-image: url(pequena-estrella.png);">
+                <li>Matricula</li>
+                <ul>KBL-1982</ul>
+                <br>
+                <li>Color</li>
+                <ul>Rojo</ul>
+                <br>
+                <li>Modelo</li>
+                <ul>
+                    Destroza cráneos
+                </ul>
+            </ul>
+            <br>
+            <li style= "border: 2px solid red;
+            color: rebeccapurple;">Toyota</li>
+            <ul style="list-style-image: url(pequena-estrella.png);">
+                <li>Matricula</li>
+                <ul>JBL-1782</ul>
+                <br>
+                <li>Color</li>
+                <ul>Morado</ul>
+                <br>
+                <li>Modelo</li>
+                <ul>
+                    Destroza espinas
+                </ul>
+            </ul>
+            <br>
+                    
+        </ol>
+
+
+</body>
+</html>

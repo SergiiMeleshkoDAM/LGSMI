@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: green;
+}
+strong{
+    color: red;
+}
+.destacado{
+    color: goldenrod;
+}
+h2{
+    color:blue;
+    text-align: center;
+}
+a{
+    color: blue;
+}
+a em{
+    color: green;
+}
+.especial {
+    color: red;
+}
+table{
+    
+}

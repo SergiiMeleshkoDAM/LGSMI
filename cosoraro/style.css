@@ -1,0 +1,42 @@
+
+body{
+    background-color: #89b520;
+    color: white;
+}
+
+/* cabecera */
+
+header h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+header h4{
+    margin-top: 0px;
+    text-align: center;
+}
+header .logo, .titulo{
+    float: left;
+}
+header .titulo{
+    margin-left: 15px;
+    padding-bottom: 0px;
+}
+header .contacto{
+    float: right;
+    text-align: right;
+    margin-top: 25px;
+}
+header .contacto ul{
+    list-style-type: none;
+}
+
+/* navegacion */
+
+nav{
+    clear: both;
+    background-color: #323232;
+}
+nav ul .menu{
+    list-style-type: none;
+}
