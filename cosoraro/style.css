@@ -41,3 +41,9 @@ nav{
 nav ul .menu{
     list-style-type: none;
 }
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 14px, 16px;
+}
