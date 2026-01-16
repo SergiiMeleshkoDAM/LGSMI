@@ -35,7 +35,8 @@ header .contacto ul{
 
 nav{
     clear: both;
-    background-color: #323232;
+    background-color: #333;
+    overflow: hidden;
 }
 nav ul .menu{
     list-style-type: none;
