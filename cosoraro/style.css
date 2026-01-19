@@ -1,6 +1,7 @@
 
 body{
-    background-color: #89b520;
+    background: #89b520;
+    background: linear-gradient(to bottom, #89b520 0%, #d8e6ad 100%);
     color: white;
 }
 
@@ -55,6 +56,7 @@ nav li{
 
 .imagenInicio{
     width: 100%;
+    margin: 0%;
 }
 
 /* primer coso */
@@ -63,9 +65,10 @@ nav li{
     background-color: white;
     color: #89b520;
     text-align: center;
-    margin-top: 0px;
+    margin: 0px;
     padding-top: 5px;
     padding-bottom: 10px;
+    padding-right: 10px;
 }
 .inicioBody i{
     color: #333;
@@ -78,4 +81,27 @@ nav li{
     color: white;
     padding: 5px;
     padding-left: 20px;
+}
+
+/* imagenes raras */
+
+div.imagenes{
+    background-color: white;
+    padding: 10px;
+}
+
+.imagenesP h2{
+    font-family:serif
+}
+.imagenesP{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 25%;
+    padding: 10px;
+    color: #333;
+    background: #89b520;
+    background: linear-gradient(to bottom, #89b520 0%, #d8e6ad 100%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
