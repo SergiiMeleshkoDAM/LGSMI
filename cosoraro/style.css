@@ -45,5 +45,37 @@ nav li a {
     display: block;
     text-decoration: none;
     color: white;
-    padding: 14px, 16px;
+}
+
+nav li{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.imagenInicio{
+    width: 100%;
+}
+
+/* primer coso */
+
+.inicioBody{
+    background-color: white;
+    color: #89b520;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.inicioBody i{
+    color: #333;
+}
+
+/* sgeundo coso */
+
+.Texto1{
+    background-color: #444;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
 }
