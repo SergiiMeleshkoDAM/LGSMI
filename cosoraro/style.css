@@ -59,6 +59,15 @@ nav li{
     margin: 0%;
 }
 
+/* footer*/
+footer{
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 1px;
+}
+
+
 /* primer coso */
 
 .inicioBody{
@@ -90,18 +99,23 @@ div.imagenes{
     padding: 10px;
 }
 
-.imagenesP h2{
-    font-family:serif
+.imagenesP h3{
+    font-family: Courier;
+    text-align: center;
 }
 .imagenesP{
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    width: 25%;
+    float: left;
+    width: 30%;
     padding: 10px;
     color: #333;
     background: #89b520;
     background: linear-gradient(to bottom, #89b520 0%, #d8e6ad 100%);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    min-height: 300px;
+}
+.clear{
+    clear: both;
 }
